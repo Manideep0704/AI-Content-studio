@@ -1,0 +1,33 @@
+# Python
+.venv/
+venv/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment & Sensitive configs
+.env
+backend/.env
+*.db
+*.sqlite3
+
+# Node / Frontend
+node_modules/
+**/node_modules/
+
+# Static Generated Content & Large Binaries
+backend/static/generated_images/*.jpg
+backend/static/generated_images/*.png
+*.jpg
+*.png
+!frontend/public/*.png
+!frontend/public/*.svg
+
+# OS & Temp
+.DS_Store
+Thumbs.db
+*.log
+scratch/
+test_*.jpg
+test_*.png
+biryani_*.jpg

@@ -1,0 +1,9 @@
+.venv/
+**/__pycache__/
+*.pyc
+*.db
+backend/.env
+frontend/node_modules/
+frontend/dist/
+backend/static/generated_images/
+test_hf_out.png
